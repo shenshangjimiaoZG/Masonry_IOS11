@@ -31,15 +31,11 @@
     
 
     self.showTable=[UITableView new];
-    //self.showTable.backgroundColor=[UIColor redColor];
     self.showTable.delegate=self;
     self.showTable.dataSource=self;
     [self.showTable registerNib:[UINib nibWithNibName:kShowTableViewCell bundle:[NSBundle mainBundle]] forCellReuseIdentifier:kShowTableViewCell];
-    self.showTable.estimatedRowHeight = 0;
-    self.showTable.estimatedSectionHeaderHeight = 0;
-    self.showTable.estimatedSectionFooterHeight = 0;
-    
-    
+  self.showTable.separatorStyle=UITableViewCellSelectionStyleNone;
+    self.showTable.rowHeight=UITableViewAutomaticDimension;
     [self.view addSubview:self.showTable];
     
     if(@available(iOS 11.0,*))
@@ -75,7 +71,7 @@
 #pragma  mark table delegate
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 100;
+    return 86;
 }
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
