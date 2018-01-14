@@ -17,6 +17,8 @@
 		1187710A200B47A2009AF6B2 /* ShowTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11877108200B47A2009AF6B2 /* ShowTableViewCell.xib */; };
 		1187710E200B47C8009AF6B2 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 1187710D200B47C8009AF6B2 /* Person.m */; };
 		11877112200B4833009AF6B2 /* PersonViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 11877111200B4833009AF6B2 /* PersonViewModel.m */; };
+		11877117200B6551009AF6B2 /* iphone8.png in Resources */ = {isa = PBXBuildFile; fileRef = 11877115200B6551009AF6B2 /* iphone8.png */; };
+		11877118200B6551009AF6B2 /* iphonex.png in Resources */ = {isa = PBXBuildFile; fileRef = 11877116200B6551009AF6B2 /* iphonex.png */; };
 		641A8EDC04FE1ADAFC286FF4 /* libPods-Masonry_IOS11.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B0793D8B899B2C033EED9D /* libPods-Masonry_IOS11.a */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +40,8 @@
 		1187710D200B47C8009AF6B2 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		11877110200B4833009AF6B2 /* PersonViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonViewModel.h; sourceTree = "<group>"; };
 		11877111200B4833009AF6B2 /* PersonViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonViewModel.m; sourceTree = "<group>"; };
+		11877115200B6551009AF6B2 /* iphone8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone8.png; sourceTree = "<group>"; };
+		11877116200B6551009AF6B2 /* iphonex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphonex.png; sourceTree = "<group>"; };
 		28B0793D8B899B2C033EED9D /* libPods-Masonry_IOS11.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Masonry_IOS11.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34DD228FC7958878BFDED855 /* Pods-Masonry_IOS11.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Masonry_IOS11.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Masonry_IOS11/Pods-Masonry_IOS11.debug.xcconfig"; sourceTree = "<group>"; };
 		D17FED87E080BF934966B68C /* Pods-Masonry_IOS11.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Masonry_IOS11.release.xcconfig"; path = "Pods/Target Support Files/Pods-Masonry_IOS11/Pods-Masonry_IOS11.release.xcconfig"; sourceTree = "<group>"; };
@@ -85,6 +89,7 @@
 		118770ED200B4611009AF6B2 /* Masonry_IOS11 */ = {
 			isa = PBXGroup;
 			children = (
+				11877114200B6535009AF6B2 /* 截图 */,
 				118770EE200B4611009AF6B2 /* AppDelegate.h */,
 				118770EF200B4611009AF6B2 /* AppDelegate.m */,
 				1187710F200B480E009AF6B2 /* viewmodel */,
@@ -135,6 +140,15 @@
 				11877111200B4833009AF6B2 /* PersonViewModel.m */,
 			);
 			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		11877114200B6535009AF6B2 /* 截图 */ = {
+			isa = PBXGroup;
+			children = (
+				11877115200B6551009AF6B2 /* iphone8.png */,
+				11877116200B6551009AF6B2 /* iphonex.png */,
+			);
+			path = "截图";
 			sourceTree = "<group>";
 		};
 		F0458D7DD5FE3D53352FCA66 /* Frameworks */ = {
@@ -206,6 +220,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11877117200B6551009AF6B2 /* iphone8.png in Resources */,
+				11877118200B6551009AF6B2 /* iphonex.png in Resources */,
 				118770FB200B4611009AF6B2 /* LaunchScreen.storyboard in Resources */,
 				118770F8200B4611009AF6B2 /* Assets.xcassets in Resources */,
 				1187710A200B47A2009AF6B2 /* ShowTableViewCell.xib in Resources */,
